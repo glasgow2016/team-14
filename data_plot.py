@@ -1,9 +1,8 @@
-import os
-import pandas as pd
-import seaborn as sns
 import mysql.connector
 import matplotlib.pyplot as plt
-
+import seaborn as sns
+import pandas as pd
+import os
 
 # connections with database
 conn = mysql.connector.connect(
@@ -14,11 +13,22 @@ conn = mysql.connector.connect(
 
 
 class DataPlot:
+    '''The class to draw charts from the data
+    '''
     def __init__(self, conn):
+        '''
+        init the instance
+        :param conn: the mysql connection
+        '''
         self.conn = conn
         print('connection success')
 
+
     def read_data(self, data_source):
+        '''load the selected table into a DataFrame
+        :param data_source: the data source/tables to read
+        :return: return the whole selected table
+        '''
         try:
             sql = "SELECT * FROM {}".format(data_source)
             result = pd.read_sql(sql,conn)
@@ -26,35 +36,44 @@ class DataPlot:
         except:
             print("fetch data error")
             self.close_database()
-            return 0
+
 
     def plot_visitor_data(self, plot_source, plot_name, file_type):
-        target = [30,34,50,50,57]
+        '''Plot the chart of different visitors.
+        :param plot_source: the selected table.
+        :param plot_name: which column to display.
+        :param file_type: the output file format.
+        :return:
+        '''
+        # targets of the visitors of each centre
+        total_target = [30,34,50,50,57]
         new_pwc_target = [10,9,12,14,10]
 
+        # load the data
         self.plot_source = plot_source
+        self.plot_name = plot_name
         plot_data_source = self.read_data(self.plot_source)
 
-        if plot_name == None:
-            self.plot_name = 'total'
-            self.y = plot_data_source[self.plot_name]
-            print(self.y)
-        else:
-            self.plot_name = plot_name
-            self.y = plot_data_source[self.plot_name]
-
+        # draw chart
         fig = plt.figure()
         ax = sns.barplot(x=plot_data_source['id'],
-                         y=(target if self.plot_name == 'total' else new_pwc_target),
+                         y=(total_target if self.plot_name == 'total' else new_pwc_target),
                          color='blue',alpha = .5,label='Target')
-        ax = sns.barplot(x=plot_data_source['id'],y=self.y,color='grey',label='2016')
+        ax = sns.barplot(x=plot_data_source['id'],y=plot_data_source[self.plot_name],color='grey',label='2016')
         ax.set_title("{} Visits to Maggie's Centres".format(self.plot_name))
         ax.set_xlabel('center number')
         ax.set_ylabel('{} visitors'.format(self.plot_name))
         ax.legend(loc='upper left')
-        fig.savefig('{}.{}'.format(self.plot_source,file_type))
+        fig.savefig('{}_{}.{}'.format(self.plot_source,self.plot_name,file_type))
+
 
     def plot_bar_chart(self,plot_type, file_type, direction = 'v'):
+        '''A general function to plot a bar chart
+        :param plot_type: plot type 'Cancer Stages'
+        :param file_type: output file type
+        :param direction: direction of the charts? vertical/ horizontal
+        :return:
+        '''
         plot_data_source = self.read_data('stats_j')
         self.columns = plot_data_source.columns
         plot_data_source[self.columns[1]] = plot_data_source[self.columns[1]]/sum(plot_data_source[self.columns[1]])
@@ -70,7 +89,13 @@ class DataPlot:
         ax.set_title("{}".format(plot_type))
         fig.savefig('{}.{}'.format(plot_type,file_type))
 
+
     def plot_pie_chart(self,plot_type, file_type):
+        '''A general function to plot a pie chart
+        :param plot_type: plot type like: 'Cancer Stages'
+        :param file_type: output file type
+        :return:
+        '''
         plot_data_source = self.read_data('stats_j')
         self.columns = plot_data_source.columns
         plot_data_source[self.columns[1]] = plot_data_source[self.columns[1]] / sum(plot_data_source[self.columns[1]])
@@ -80,11 +105,13 @@ class DataPlot:
         ax.set_title("{}".format(plot_type))
         fig.savefig('{}.{}'.format(plot_type, file_type))
 
+
     def close_database(self):
         conn.close()
 
+
 if __name__ == '__main__':
          plot_data = DataPlot(conn)
-         plot_data.plot_visitor_data('visitors','new_PwC','pdf')
-         plot_data.plot_bar_chart('Cancer Sites Bar','pdf')
-         plot_data.plot_pie_chart('Cancer Sites Pie','pdf')
+         plot_data.plot_visitor_data('visitors','new_PwC','png')
+         plot_data.plot_bar_chart('Cancer Sites Bar','png')
+         plot_data.plot_pie_chart('Cancer Sites Pie','png')
