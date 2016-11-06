@@ -43,7 +43,7 @@ class DataPlot:
         :param plot_source: the selected table.
         :param plot_name: which column to display.
         :param file_type: the output file format.
-        :return:
+        :return: None
         '''
         # targets of the visitors of each centre
         total_target = [30,34,50,50,57]
@@ -72,7 +72,7 @@ class DataPlot:
         :param plot_type: plot type 'Cancer Stages'
         :param file_type: output file type
         :param direction: direction of the charts? vertical/ horizontal
-        :return:
+        :return:None
         '''
         plot_data_source = self.read_data('stats_j')
         self.columns = plot_data_source.columns
@@ -94,7 +94,7 @@ class DataPlot:
         '''A general function to plot a pie chart
         :param plot_type: plot type like: 'Cancer Stages'
         :param file_type: output file type
-        :return:
+        :return: None
         '''
         plot_data_source = self.read_data('stats_j')
         self.columns = plot_data_source.columns
