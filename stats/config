@@ -4,9 +4,10 @@ center=aggregate # aggregate or separate
 month=aggregate # aggregate or separate
 
 ## stats
-{"name":"Person","constraints":{},"fields":['person']}
-{"name":"Person_VisitType","constraints":{},"fields":['person', 'visit_type']}
-{"name":"Core Programme","constraints":{'nature_of_visit':'Programme'},"fields":['cancer_site']}
+#{"name":"Person","constraints":{},"fields":['person']}
+#{"name":"Person_VisitType","constraints":{},"fields":['person', 'visit_type']}
+# {"name":"Core Programme","constraints":{'nature_of_visit':'Programme'},"fields":['cancer_site']}
+{"name":"Cancer Site","constraints":{'nature_of_visit':'Programme'},"fields":['cancer_site']}
 
 
 

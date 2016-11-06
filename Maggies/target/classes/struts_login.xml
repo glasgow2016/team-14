@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="web_login" namespace="/" extends="default">
+		<action name="login" class="action.UserAction" method="login">
+			<result name="success">
+				/visitor_recording.jsp
+			</result>
+			<result name="failure">
+				/login.jsp
+			</result>
+		</action>
+
+		<action name="intercept" class="action.InterceptedAction" method="intercept">
+			<result name="success" type="redirectAction">
+				<param name="namespace">/</param>
+				<param name="actionName">list_all</param>
+			</result>
+			<result name="failure">
+				/login.jsp
+			</result>
+		</action>
+
+		<action name="list_all" class="action.ListPatientAction" method="list_patients">
+			<result name="success">
+				/daily_record.jsp
+			</result>
+		</action>
+		
+		<action name="register" class="action.UserAction" method="register">
+			<result name="success">
+				/login/register_ret.jsp
+			</result>
+		</action>
+
+		<action name="patient_merge" class="action.PatientMergeAction" method="merge">
+			<result name="success">
+				/merged_daily_record.jsp
+			</result>
+		</action>
+		
+		<action name="logout" class="action.UserAction" method="logout">
+			<result name="success">
+				/login/register_ret.jsp
+			</result>
+		</action>
+
+		<action name="insert_record" class="action.InsertRecordAction" method="insert">
+			<result name="success">
+				/daily_record.jsp
+			</result>
+		</action>
+
+		<action name="list_visits" class="action.ReportAction" method="list_visitors">
+			<result name="success">
+				/report.jsp
+			</result>
+		</action>
+	</package>
+</struts>

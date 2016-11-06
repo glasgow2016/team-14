@@ -79,12 +79,23 @@ class DataPlot:
         fig = plt.figure()
         if direction == 'v':
             ax = sns.barplot(x=self.columns[0],y=self.columns[1],data=plot_data_source)
+            plt.xticks(rotation=20)
             ax.set_xlabel(plot_type)
             ax.set_ylabel('Percentage')
         else:
             ax = sns.barplot(x=self.columns[1],y=self.columns[0], data=plot_data_source)
+            plt.yticks(rotation=20)
             ax.set_xlabel('Percentage')
             ax.set_ylabel(plot_type)
+        #
+        # if direction == 'v':
+        #     ax = plt.bar(left=plot_data_source[self.columns[0]], height=plot_data_source[self.columns[1]])
+        #     ax.set_xlabel(plot_type)
+        #     ax.set_ylabel('Percentage')
+        # else:
+        #     ax = plt.bar(left=plot_data_source[self.columns[1]], height=plot_data_source[self.columns[0]])
+        #     ax.set_xlabel('Percentage')
+        #     ax.set_ylabel(plot_type)
         ax.set_title("{}".format(plot_type))
         fig.savefig('{}.{}'.format(plot_type,file_type))
 
@@ -111,6 +122,6 @@ class DataPlot:
 
 if __name__ == '__main__':
          plot_data = DataPlot(conn)
-         plot_data.plot_visitor_data('visitors','new_PwC','png')
+         # plot_data.plot_visitor_data('visitors','new_PwC','png')
          plot_data.plot_bar_chart('Cancer Sites Bar','png')
          plot_data.plot_pie_chart('Cancer Sites Pie','png')

@@ -78,4 +78,6 @@ for s in stats:
     input = data_filter(input, constraints=s['constraints'])
     result = sum_stats(input, s['fields'], default_fields=default_fields)
     print result
+    result.to_sql(con=conn, name="stats_j", if_exists="replace", flavor="mysql", index=False)
+
 
