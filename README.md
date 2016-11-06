@@ -10,6 +10,6 @@ Challenges:
 What we have done:  
 1. A webpage for the staff to login in, avoid other people accessing the webpage.  
 2. A webpage for the staff to submit information to the system.  
-3. A webpage showing the all the information of today's record.  
+3. A webpage showing the all today's records.  
 3. Save these data to a database.  
 4. Generate tables and charts from databases.  
