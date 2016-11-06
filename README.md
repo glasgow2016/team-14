@@ -3,9 +3,9 @@ We are working on a project for maggie's.
 
 Challenges:  
 1.  No visitor should be aware that information pertinent to their visit is being recorded. The solution should be simple and easy to use by a largely non technical staff.  
-2. Not double count any one visitor. 
-3. Ease of Use. 
-4. Allow Reporting. Key reports would identify the number of unique visitors to a centre, the number of services leveraged in a center and trends.  
+2. Not double count any one visitor.   
+3. Ease of Use.  
+4. Allow Reporting. Key reports would identify the number of unique visitors to a centre, the number of services leveraged in a center and trends.   
 
 What we have done:  
 1. A webpage for the staff to login in, avoid other people accessing the webpage.  
