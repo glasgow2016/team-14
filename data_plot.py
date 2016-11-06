@@ -16,8 +16,7 @@ class DataPlot:
     '''The class to draw charts from the data
     '''
     def __init__(self, conn):
-        '''
-        init the instance
+        '''init the instance
         :param conn: the mysql connection
         '''
         self.conn = conn
