@@ -46,13 +46,8 @@ class DataPlot:
         fig = plt.figure()
         ax = sns.barplot(x=plot_data_source['id'],
                          y=(target if self.plot_name == 'total' else new_pwc_target),
-                         color='blue',
-                         alpha = .5,
-                         label='Target')
-        ax = sns.barplot(x=plot_data_source['id'],
-                         y=self.y,
-                         color='grey',
-                         label='2016')
+                         color='blue',alpha = .5,label='Target')
+        ax = sns.barplot(x=plot_data_source['id'],y=self.y,color='grey',label='2016')
         ax.set_title("{} Visits to Maggie's Centres".format(self.plot_name))
         ax.set_xlabel('center number')
         ax.set_ylabel('{} visitors'.format(self.plot_name))
