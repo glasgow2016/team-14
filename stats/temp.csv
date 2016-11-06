@@ -1,0 +1,212 @@
+remark,seen_by,person,visit_type,gender,cancer_site,journey_stage,nature_of_visit,activity,center,visiting_data
+old man,CSS,PwC,Returning,Female,Breast,Post Treatment - Curative Intent,Programme,Relaxation,1,11/5/16 20:50
+,CSS,PwC,Returning,Female,Breast,Non-Curative Intent,Programme,Relaxation,1,11/5/16 22:14
+,CSS,Carer,Returning,Female,Pancreatic,Not Stated,Programme,Relaxation,1,11/5/16 22:14
+,CSS,PwC,Returning,Female,Breast,Post Treatment - Curative Intent,Programme,Relaxation,1,11/5/16 22:15
+bob,CSS,PwC,Returning,Male,Prostate,Non-Curative Intent,Programme,FSG Family and Friends,1,11/5/16 22:16
+,CSS,PwC,Returning,Female,Breast,Post Treatment - Curative Intent,Programme,Relaxation,1,11/5/16 22:16
+,CSS,PwC,Returning,Female,Rare,Non-Curative Intent,Programme,Relaxation,1,11/5/16 22:17
+,CSS,Professional,,,,,,,1,11/5/16 22:17
+kitty,Centre Head,PwC,New,Male,Lung,Not Stated,Drop-In,,1,11/5/16 22:18
+kitty,Centre Head,Carer,New,Female,Lung,Not Stated,Drop-In,,1,11/5/16 22:18
+kitty,Centre Head,Carer,New,Female,Lung,Not Stated,Drop-In,,1,11/5/16 22:20
+kitty,Centre Head,PwC,Returning,Female,Breast,Not Stated,Drop-In,,1,11/5/16 22:20
+kitty,Centre Head,PwC,Returning,Male,Head/Neck,Not Stated,Drop-In,,1,11/5/16 22:22
+kitty,Centre Head,Carer,Returning,Female,Head/Neck,Not Stated,Drop-In,,1,11/5/16 22:22
+kitty,Centre Head,PwC,Returning,Male,Brain/CNS,Non-Curative Intent,Booked,Psych Support - Individual,1,11/5/16 22:24
+kitty,Centre Head,Carer,Returning,Female,Brain/CNS,Non-Curative Intent,Drop-In,,1,11/5/16 22:26
+kitty,Centre Head,PwC,Returning,Female,Haemat,Post Treatment - Curative Intent,Booked,Psych Support - Individual,1,11/5/16 22:28
+,Centre Head,PwC,Returning,Female,Lung,Post Treatment - Curative Intent,Booked,Psych Support - Individual,2,11/6/16 22:28
+,Centre Head,PwC,Returning,Male,Lower GI,Curative Intent,Drop-In,,2,11/7/16 22:28
+,Centre Head,Carer,Returning,Female,Lower GI,Curative Intent,Drop-In,,2,11/8/16 22:28
+,Centre Head,PwC,Returning,Female,Brain/CNS,Non-Curative Intent,Drop-In,,2,11/9/16 22:28
+,Centre Head,Carer,Returning,Male,Brain/CNS,Non-Curative Intent,Drop-In,,2,11/10/16 22:28
+,Centre Head,Carer,Returning,Female,Brain/CNS,Non-Curative Intent,Drop-In,,2,11/11/16 22:28
+,Centre Head,PwC,Returning,Male,Urolog,Post Treatment - Curative Intent,Drop-In,,2,11/12/16 22:28
+,Centre Head,Carer,Returning,Male,Haemat,Bereaved,Drop-In,,2,11/13/16 22:28
+,Centre Head,PwC,Returning,Male,Brain/CNS,Non-Curative Intent,Booked,Psych Support - Individual,2,11/14/16 22:28
+,CSS,Professional,,,,,,,2,11/15/16 22:28
+,CSS,Professional,,,,,,,2,11/16/16 22:28
+,CSS,Professional,,,,,,,2,11/17/16 22:28
+old man,CSS,Professional,,,,,,,2,11/18/16 22:28
+old man,CSS,Professional,,,,,,,2,11/19/16 22:28
+old man,CSS,Professional,,,,,,,2,11/20/16 22:28
+old man,CSS,Professional,,,,,,,2,11/21/16 22:28
+old man,CSS,Professional,,,,,,,2,11/22/16 22:28
+old man,CSS,Professional,,,,,,,2,11/23/16 22:28
+old man,CSS,Professional,,,,,,,2,11/24/16 22:28
+old man,CSS,Professional,,,,,,,2,11/25/16 22:28
+old man,CSS,Professional,,,,,,,3,11/26/16 22:28
+old man,CSS,Professional,,,,,,,3,11/27/16 22:28
+old man,CSS,Professional,,,,,,,3,11/28/16 22:28
+old man,CSS,Professional,,,,,,,3,11/29/16 22:28
+,CSS,Professional,,,,,,,3,11/30/16 22:28
+,CSS,Professional,,,,,,,3,12/1/16 22:28
+,CSS,Professional,,,,,,,3,12/2/16 22:28
+,CSS,Professional,,,,,,,3,12/3/16 22:28
+,CSS,Professional,,,,,,,3,12/4/16 22:28
+,CSS,PwC,Returning,Male,Upper GI,Curative Intent,Booked,Psych Support - Couple,3,12/5/16 22:28
+,CSS,Carer,Returning,Female,Upper GI,Curative Intent,Booked,Psych Support - Couple,3,12/6/16 22:28
+,CSS,Carer,Returning,Male,Upper GI,Non-Curative Intent,Booked,Psych Support - Individual,3,12/7/16 22:28
+,CSS,Carer,Returning,Female,Brain/CNS,Curative Intent,Drop-In,,3,12/8/16 22:28
+,CSS,PwC,Returning,Female,Breast,Curative Intent,Drop-In,,3,12/9/16 22:28
+,CSS,PwC,Returning,Female,Urolog,Non-Curative Intent,Drop-In,,3,12/10/16 22:28
+,CSS,Carer,Returning,Female,Haemat,Bereaved,Drop-In,,3,12/11/16 22:28
+,CSS,PwC,Returning,Male,Not Stated,Curative Intent,Drop-In,,3,12/12/16 22:28
+,Sessional Staff,PwC,Returning,Female,Lower GI,Not Stated,Programme,Nutrition,3,12/13/16 22:28
+,Sessional Staff,Carer,Returning,Female,Lower GI,Not Stated,Programme,Nutrition,3,12/14/16 22:28
+,CSS,PwC,Returning,Female,Breast,Curative Intent,Drop-In,,3,12/15/16 22:28
+,CSS,Carer,New,Female,Breast,Curative Intent,Drop-In,,3,12/16/16 22:28
+,CSS,Carer,New,Female,Breast,Bereaved,Drop-In,,3,12/17/16 22:28
+,CSS,PwC,New,Male,Not Stated,Curative Intent,Drop-In,,3,12/18/16 22:28
+,CSS,Carer,New,Female,Not Stated,Curative Intent,Drop-In,,3,12/19/16 22:28
+,Psychologist,PwC,Returning,Female,Lung,Post Treatment - Curative Intent,Booked,Psych Support - Individual,3,12/20/16 22:28
+,Psychologist,PwC,New,Female,Lower GI,Post Treatment - Curative Intent,Programme,Psych Support - Individual,3,12/21/16 22:28
+,Psychologist,Carer,Returning,Female,Breast,Non-Curative Intent,Programme,FSG Family and Friends,3,12/22/16 22:28
+,Psychologist,Carer,Returning,Female,Haemat,Non-Curative Intent,Programme,FSG Family and Friends,3,12/23/16 22:28
+,Psychologist,Carer,Returning,Male,Lower GI,Non-Curative Intent,Programme,FSG Family and Friends,3,12/24/16 22:28
+,Psychologist,Carer,Returning,Male,Haemat,Non-Curative Intent,Programme,FSG Family and Friends,3,12/25/16 22:28
+,Psychologist,Carer,Returning,Male,Brain/CNS,Bereaved,Booked,Psych Support - Individual,3,12/26/16 22:28
+,Psychologist,PwC,Returning,Male,Prostate,Non-Curative Intent,Programme,Creative Writing,3,12/27/16 22:28
+,Psychologist,PwC,Returning,Female,Breast,Non-Curative Intent,Programme,Creative Writing,3,12/28/16 22:28
+,Psychologist,PwC,Returning,Female,Breast,Non-Curative Intent,Programme,Creative Writing,3,12/29/16 22:28
+,Psychologist,PwC,Returning,Male,Prostate,Non-Curative Intent,Programme,FSG Men's,3,12/30/16 22:28
+,Psychologist,PwC,Returning,Male,Lung,Non-Curative Intent,Programme,FSG Men's,3,12/31/16 22:28
+,Psychologist,PwC,Returning,Male,Lung,Non-Curative Intent,Programme,FSG Men's,3,1/1/17 22:28
+,Psychologist,PwC,Returning,Male,Lower GI,Non-Curative Intent,Programme,FSG Men's,3,1/2/17 22:28
+,Centre Head,PwC,Returning,Male,Haemat,Curative Intent,Booked,Psych Support - Individual,3,1/3/17 22:28
+,Centre Head,PwC,Returning,Female,Haemat,Post Treatment - Curative Intent,Booked,Psych Support - Individual,3,1/4/17 22:28
+,Centre Head,PwC,Returning,Male,Brain/CNS,Non-Curative Intent,Booked,Psych Support - Individual,3,1/5/17 22:28
+,Centre Head,Carer,Returning,Female,Brain/CNS,Non-Curative Intent,Booked,Psych Support - Individual,3,1/6/17 22:28
+,Centre Head,PwC,Returning,Male,Lower GI,Post Treatment - Curative Intent,Booked,Psych Support - Individual,3,1/7/17 22:28
+,Centre Head,Carer,New,Female,Urolog,Curative Intent,Drop-In,,3,1/8/17 22:28
+,Centre Head,Carer,New,Male,Urolog,Curative Intent,Drop-In,,3,1/9/17 22:28
+,Centre Head,Carer,Returning,Female,Lower GI,Bereaved,Booked,Psych Support - Individual,3,1/10/17 22:28
+,Centre Head,Carer,Returning,Under 18 Male,Lower GI,Bereaved,Booked,Psych Support - Individual,3,1/11/17 22:28
+,Centre Head,Carer,Returning,Male,Prostate,Bereaved,Booked,Psych Support - Individual,3,1/12/17 22:28
+,Centre Head,Carer,Returning,Female,Urolog,Bereaved,Booked,Psych Support - Individual,3,1/13/17 22:28
+,Centre Head,PwC,Returning,Female,Breast,Post Treatment - Curative Intent,Booked,Psych Support - Individual,3,1/14/17 22:28
+,CSS,PwC,Returning,Female,Breast,Post Treatment - Curative Intent,Booked,Psych Support - Individual,3,1/15/17 22:28
+,CSS,Carer,Returning,Female,Urolog,Curative Intent,Telephone Support,,3,1/16/17 22:28
+old man,CSS,Carer,Returning,Female,Breast,Bereaved,Booked,Psych Support - Individual,3,1/17/17 22:28
+old man,CSS,PwC,New,Female,Breast,Curative Intent,Drop-In,,3,1/18/17 22:28
+old man,CSS,Carer,New,Male,Breast,Curative Intent,Drop-In,,3,1/19/17 22:28
+old man,CSS,PwC,Returning,Male,Haemat,Curative Intent,Drop-In,,3,1/20/17 22:28
+old man,CSS,Carer,Returning,Female,Haemat,Curative Intent,Drop-In,,3,1/21/17 22:28
+old man,CSS,PwC,New,Male,Lung,Non-Curative Intent,Drop-In,,3,1/22/17 22:28
+old man,Sessional Staff,PwC,Returning,Male,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,1/23/17 22:28
+old man,Sessional Staff,PwC,Returning,Male,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,1/24/17 22:28
+old man,Sessional Staff,PwC,Returning,Male,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,1/25/17 22:28
+old man,Sessional Staff,PwC,Returning,Male,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,1/26/17 22:28
+old man,Sessional Staff,PwC,Returning,Male,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,1/27/17 22:28
+old man,Sessional Staff,PwC,Returning,Male,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,1/28/17 22:28
+old man,Sessional Staff,PwC,Returning,Female,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,1/29/17 22:28
+old man,Sessional Staff,PwC,Returning,Female,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,1/30/17 22:28
+old man,Sessional Staff,PwC,Returning,Female,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,1/31/17 22:28
+old man,Sessional Staff,PwC,Returning,Female,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,2/1/17 22:28
+,Sessional Staff,PwC,Returning,Female,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,2/2/17 22:28
+,Sessional Staff,PwC,Returning,Female,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,2/3/17 22:28
+,Sessional Staff,PwC,Returning,Female,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,2/4/17 22:28
+,Sessional Staff,PwC,Returning,Female,Not Stated,Not Stated,Programme,Tai Chi/Qi Gong,4,2/5/17 22:28
+,CSS,PwC,Returning,Male,Head/Neck,Post Treatment - Curative Intent,Booked,Psych Support - Individual,5,2/6/17 22:28
+,CSS,PwC,Returning,Female,Breast,Post Treatment - Curative Intent,Booked,Psych Support - Couple,5,2/7/17 22:28
+,CSS,Carer,Returning,Male,Breast,Post Treatment - Curative Intent,Booked,Psych Support - Couple,5,2/8/17 22:28
+,CSS,PwC,Returning,Female,Gynae,Non-Curative Intent,Drop-In,,5,2/9/17 22:28
+,CSS,PwC,New,Female,Lower GI,Curative Intent,Drop-In,,5,2/10/17 22:28
+,CSS,PwC,New,Female,Breast,Non-Curative Intent,Drop-In,,5,2/11/17 22:28
+,CSS,Carer,New,Female,Breast,Non-Curative Intent,Drop-In,,5,2/12/17 22:28
+,CSS,PwC,New,Female,Breast,Curative Intent,Drop-In,,5,2/13/17 22:28
+,CSS,Carer,Returning,Female,Brain/CNS,Non-Curative Intent,Booked,Psych Support - Individual,5,2/14/17 22:28
+,CSS,PwC,Returning,Male,Brain/CNS,Non-Curative Intent,Drop-In,,5,2/15/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,5,2/16/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,5,2/17/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,5,2/18/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,5,2/19/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,5,2/20/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,2/21/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,2/22/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,2/23/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,2/24/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,2/25/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,2/26/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,2/27/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,2/28/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,3/1/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,3/2/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,3/3/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,3/4/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,6,3/5/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,7,3/6/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,7,3/7/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,7,3/8/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,7,3/9/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,7,3/10/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,7,3/11/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,7,3/12/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,7,3/13/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,7,3/14/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,7,3/15/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,7,3/16/17 22:28
+,CSS,Other Visitor,,,,,Outreach,,7,3/17/17 22:28
+,CSS,PwC,New,Male,Testicular,Post Treatment - Curative Intent,Drop-In,,7,3/18/17 22:28
+,CSS,Carer,New,Female,Upper GI,Non-Curative Intent,Drop-In,,7,3/19/17 22:28
+,CSS,Carer,New,Male,Upper GI,Non-Curative Intent,Drop-In,,7,3/20/17 22:28
+,CSS,PwC,Returning,Female,Breast,Post Treatment - Curative Intent,Drop-In,,7,3/21/17 22:28
+,CSS,PwC,New,Female,Lower GI,Non-Curative Intent,Drop-In,,7,3/22/17 22:28
+,CSS,Carer,New,Female,Lower GI,Non-Curative Intent,Drop-In,,7,3/23/17 22:28
+,CSS,Carer,Returning,Female,Breast,Non-Curative Intent,Booked,Psych Support - Individual,7,3/24/17 22:28
+,CSS,PwC,Returning,Male,Brain/CNS,Curative Intent,Drop-In,,7,3/25/17 22:28
+,CSS,PwC,Returning,Female,Skin/Mel,Curative Intent,Booked,Psych Support - Individual,7,3/26/17 22:28
+,Psychologist,PwC,Returning,Female,Haemat,Non-Curative Intent,Booked,Psych Support - Individual,7,3/27/17 22:28
+,Psychologist,Carer,Returning,Female,Lung,Non-Curative Intent,Booked,Psych Support - Individual,7,3/28/17 22:28
+,Psychologist,PwC,Returning,Female,Breast,Post Treatment - Curative Intent,Booked,Psych Support - Individual,7,3/29/17 22:28
+,Psychologist,Carer,Returning,Male,Breast,Bereaved,Booked,Psych Support - Individual,7,3/30/17 22:28
+,Psychologist,PwC,Returning,Female,Brain/CNS,Post Treatment - Curative Intent,Booked,Psych Support - Individual,7,3/31/17 22:28
+,CSS,Carer,Returning,Male,Lower GI,Bereaved,Programme,FSG Bereavement,7,4/1/17 22:28
+,CSS,Carer,Returning,Female,Brain/CNS,Bereaved,Programme,FSG Bereavement,7,4/2/17 22:28
+,CSS,Carer,Returning,Female,Breast,Bereaved,Programme,FSG Bereavement,7,4/3/17 22:28
+,CSS,Carer,Returning,Female,Upper GI,Bereaved,Programme,FSG Bereavement,7,4/4/17 22:28
+,CSS,Carer,Returning,Female,Lower GI,Bereaved,Programme,FSG Bereavement,7,4/5/17 22:28
+,Psychologist,PwC,Returning,Male,Brain/CNS,Non-Curative Intent,Booked,Psych Support - Individual,7,4/6/17 22:28
+,Psychologist,PwC,Returning,Female,Breast,Post Treatment - Curative Intent,Booked,Psych Support - Individual,7,4/7/17 22:28
+,Psychologist,PwC,New,Male,Testicular,Post Treatment - Curative Intent,Drop-In,Psych Support - Individual,7,4/8/17 22:28
+,Psychologist,PwC,Returning,Male,Brain/CNS,Non-Curative Intent,Programme,NG Brain,7,4/9/17 22:28
+,Psychologist,PwC,Returning,Male,Brain/CNS,Non-Curative Intent,Programme,NG Brain,7,4/10/17 22:28
+,Psychologist,PwC,Returning,Female,Brain/CNS,Non-Curative Intent,Programme,NG Brain,7,4/11/17 22:28
+,Psychologist,PwC,Returning,Female,Brain/CNS,Non-Curative Intent,Programme,NG Brain,7,4/12/17 22:28
+,Psychologist,Carer,Returning,Female,Brain/CNS,Bereaved,Programme,NG Brain,7,4/13/17 22:28
+,Psychologist,Carer,Returning,Female,Brain/CNS,Bereaved,Programme,NG Brain,7,4/14/17 22:28
+,Psychologist,Carer,Returning,Female,Brain/CNS,Bereaved,Programme,NG Brain,7,4/15/17 22:28
+,Psychologist,Carer,Returning,Male,Brain/CNS,Bereaved,Programme,NG Brain,7,4/16/17 22:28
+,Centre Head,PwC,Returning,Female,Breast,Post Treatment - Curative Intent,Booked,Psych Support - Individual,7,4/17/17 22:28
+,Centre Head,Carer,New,Under 18 Male,Breast,Post Treatment - Curative Intent,Drop-In,,8,4/18/17 22:28
+,Centre Head,PwC,New,Female,Head/Neck,Non-Curative Intent,Drop-In,,8,4/19/17 22:28
+,Centre Head,Carer,New,Female,Head/Neck,Non-Curative Intent,Drop-In,,8,4/20/17 22:28
+,Centre Head,Carer,New,Male,Head/Neck,Non-Curative Intent,Drop-In,,8,4/21/17 22:28
+,Centre Head,PwC,Returning,Male,Lung,Curative Intent,Drop-In,,8,4/22/17 22:28
+,Centre Head,PwC,Returning,Female,Breast,Post Treatment - Curative Intent,Drop-In,,8,4/23/17 22:28
+,Centre Head,Carer,Returning,Female,Breast,Post Treatment - Curative Intent,Drop-In,,8,4/24/17 22:28
+,Centre Head,Carer,Returning,Male,Prostate,Non-Curative Intent,Programme,FSG Family and Friends,8,4/25/17 22:28
+,Centre Head,Carer,Returning,Male,Lower GI,Non-Curative Intent,Programme,FSG Family and Friends,8,4/26/17 22:28
+,Centre Head,Carer,Returning,Female,Lower GI,Non-Curative Intent,Programme,FSG Family and Friends,8,4/27/17 22:28
+,Centre Head,Carer,Returning,Female,Haemat,Non-Curative Intent,Programme,FSG Family and Friends,8,4/28/17 22:28
+,Centre Head,Carer,Returning,Female,Lower GI,Non-Curative Intent,Programme,FSG Family and Friends,8,4/29/17 22:28
+,Centre Head,Carer,Returning,Female,Lung,Non-Curative Intent,Programme,FSG Family and Friends,8,4/30/17 22:28
+,Centre Head,Carer,Returning,Female,Lung,Non-Curative Intent,Programme,FSG Family and Friends,8,5/1/17 22:28
+,Centre Head,Carer,Returning,Female,Brain/CNS,Non-Curative Intent,Booked,Psych Support - Individual,8,5/2/17 22:28
+,Centre Head,Carer,Returning,Female,Urolog,Bereaved,Booked,Psych Support - Individual,8,5/3/17 22:28
+,Centre Head,Carer,Returning,Female,Skin/Mel,Bereaved,Booked,Psych Support - Individual,8,5/4/17 22:28
+,Centre Head,PwC,Returning,Male,Haemat,Curative Intent,Booked,Psych Support - Individual,8,5/5/17 22:28
+,Centre Head,PwC,Returning,Female,Breast,Post Treatment - Curative Intent,Booked,Psych Support - Individual,8,5/6/17 22:28
+,Centre Head,Carer,Returning,Male,Haemat,Bereaved,Booked,Psych Support - Individual,8,5/7/17 22:28
+,CSS,PwC,New,Female,Breast,Curative Intent,Drop-In,,8,5/8/17 22:28
+,CSS,Carer,Returning,Female,Breast,Curative Intent,Drop-In,,8,5/9/17 22:28
+,CSS,Carer,Returning,Male,Gynae,Curative Intent,Drop-In,,8,5/10/17 22:28
+,CSS,PwC,Returning,Female,Lower GI,Non-Curative Intent,Drop-In,,8,5/11/17 22:28
+,CSS,PwC,Returning,Female,Breast,Curative Intent,Drop-In,,8,5/12/17 22:28
+,Centre Head,PwC,Returning,Male,Head/Neck,Curative Intent,Programme,NG Laryngectomy,8,5/13/17 22:28
+,Centre Head,PwC,Returning,Male,Head/Neck,Curative Intent,Programme,NG Laryngectomy,8,5/14/17 22:28
+,Centre Head,PwC,Returning,Male,Head/Neck,Curative Intent,Programme,NG Laryngectomy,8,5/15/17 22:28
+,Centre Head,PwC,Returning,Male,Head/Neck,Curative Intent,Programme,NG Laryngectomy,8,5/16/17 22:28
+,Centre Head,PwC,Returning,Male,Head/Neck,Curative Intent,Programme,NG Laryngectomy,8,5/17/17 22:28
+,Centre Head,PwC,Returning,Male,Head/Neck,Curative Intent,Programme,NG Laryngectomy,8,5/18/17 22:28
