@@ -1,8 +1,9 @@
+import os
+import pandas as pd
+import seaborn as sns
 import mysql.connector
 import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
-import os
+
 
 # connections with database
 conn = mysql.connector.connect(
@@ -17,7 +18,6 @@ class DataPlot:
         self.conn = conn
         print('connection success')
 
-
     def read_data(self, data_source):
         try:
             sql = "SELECT * FROM {}".format(data_source)
@@ -27,7 +27,6 @@ class DataPlot:
             print("fetch data error")
             self.close_database()
             return 0
-
 
     def plot_visitor_data(self, plot_source, plot_name, file_type):
         target = [30,34,50,50,57]
@@ -60,7 +59,6 @@ class DataPlot:
         ax.legend(loc='upper left')
         fig.savefig('{}.{}'.format(self.plot_source,file_type))
 
-
     def plot_bar_chart(self,plot_type, file_type, direction = 'v'):
         plot_data_source = self.read_data('stats_j')
         self.columns = plot_data_source.columns
@@ -77,7 +75,6 @@ class DataPlot:
         ax.set_title("{}".format(plot_type))
         fig.savefig('{}.{}'.format(plot_type,file_type))
 
-
     def plot_pie_chart(self,plot_type, file_type):
         plot_data_source = self.read_data('stats_j')
         self.columns = plot_data_source.columns
@@ -88,12 +85,11 @@ class DataPlot:
         ax.set_title("{}".format(plot_type))
         fig.savefig('{}.{}'.format(plot_type, file_type))
 
-
     def close_database(self):
         conn.close()
 
-
-plot_data = DataPlot(conn)
-plot_data.plot_visitor_data('visitors','new_PwC','pdf')
-plot_data.plot_bar_chart('Cancer Sites Bar','pdf')
-plot_data.plot_pie_chart('Cancer Sites Pie','pdf')
+if __name__ == '__main__':
+         plot_data = DataPlot(conn)
+         plot_data.plot_visitor_data('visitors','new_PwC','pdf')
+         plot_data.plot_bar_chart('Cancer Sites Bar','pdf')
+         plot_data.plot_pie_chart('Cancer Sites Pie','pdf')
